@@ -5,20 +5,6 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import styles from './Message.module.css';
 import { useState, useEffect } from "react";
-// const text = 'React';
-
-// const Message = (props) => {
-//     return <p className={styles.color}>{props.text}</p>;
-// };
-
-// const Homework=()=>{
-//     return(
-//         <div>
-//             <h1 className={styles.h1} >Homework-2</h1>
-//             <Message  text={text}/>
-//         </div>
-//     )
-// }
 
 const Homework = () => {
   const [messageList, setMessageList] = useState([]);
