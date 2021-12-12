@@ -6,9 +6,9 @@ import reportWebVitals from './reportWebVitals';
 // import styles from './Message.module.css';
 import { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { ChatList } from "./components/ChatList";
-import { MessageInput } from "./components/MessageInput";
-import { MessageList } from "./components/MessageList";
+import { ChatList } from "./Homework-4/components/ChatList";
+import { MessageInput } from "./Homework-4/components/MessageInput";
+import { MessageList } from "./Homework-4/components/MessageList";
 
 const useStyles = makeStyles({
     wrapper: {
