@@ -53,7 +53,7 @@ export const MessageInput = (props) => {
            onSubmit={onSubmitMessage}
         >
             <InputBase
-                inpitRef={inputRef}
+                inputRef={inputRef}
                 className={classes.input}
                 onChange={onChangeMessageInput}
                 placeholder={props.placeholder}
